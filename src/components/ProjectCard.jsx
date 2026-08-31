@@ -9,7 +9,7 @@ function ProjectCard({ project, detailed = false }) {
     return (
         <article className={styles.projectCard}>
             <img
-                className={styles.projectCardImage}
+                className={`${styles.projectCardImage} ${detailed ? styles.projectCardImageDetailed : ""}`}
                 src={`${BASE_URL}/storage/${image}`}
                 alt={title}
             />
