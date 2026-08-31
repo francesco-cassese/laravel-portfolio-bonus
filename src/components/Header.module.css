@@ -1,0 +1,13 @@
+.siteHeader {
+  background-color: var(--color-primary);
+  padding: 1rem;
+}
+
+.siteHeaderTitle {
+  display: block;
+  max-width: 1100px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
